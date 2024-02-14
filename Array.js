@@ -97,7 +97,7 @@ console.log("After fill", fillArray);
 
 //find(returns the first element found)
 const newPlantArray = ["calathea", "rubber plant", "monstera", "olive", "pothos"];
-const findResult = newPlantArray.filter(plant => plant.length > 8);
+const findResult = newPlantArray.find(plant => plant.length > 8);
 console.log("find() returns the first element found",findResult);
 
 //filter
